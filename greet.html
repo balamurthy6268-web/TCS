@@ -1,0 +1,28 @@
+<html>
+<body>
+<div id="greet"></div>
+
+<script>
+
+var Digital=new Date()
+var hours=Digital.getHours()
+
+document.write ('time is now:' + hours)
+
+//Configure message below to your own.
+if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
+document.getElementById('greet').innerHTML="Good morning"
+else if (hours==12) //MESSAGE FOR NOON
+document.getElementById('greet').innerHTML="Noon greetings"
+else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
+document.getElementById('greet').innerHTML="Good afternoon"
+else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
+document.getElementById('greet').innerHTML="Good evening"
+else if (hours>=21&&hours<=23) //MESSAGE FOR NIGHT (9pm-11pm)
+document.getElementById('greet').innerHTML="Good night"
+else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12am-4am)
+document.getElementById('greet').innerHTML="Good late night"
+
+</script>
+</body>
+</html>
