@@ -33,3 +33,11 @@ test('Scientific calculator add Test', async () => {
     const sum = scientificCalculator.add(5, 3);
     expect(sum).toBe(8.5); // 8 from Calculator + 0.5 from ScientificCalculator
 });
+
+test('Calculator multiply test', async() => {
+
+     const product = calculator.multiply(3,2);
+     expect (product).toBe (6);
+     
+
+});

@@ -24,5 +24,10 @@ class Calculator {
     subtract(a: number, b: number): number {
         return a - b;
     }
+
+    multiply(a:number, b:number): number{
+        return a * b;
+    }
 }
+
 export default Calculator;
