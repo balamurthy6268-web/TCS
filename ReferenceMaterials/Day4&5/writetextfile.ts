@@ -5,7 +5,7 @@ export function writeTextFile(filePath: string, text: string): void {
     try {
         fs.writeFileSync(filePath, text, 'utf-8');
         fs.appendFileSync(filePath, '\n', 'utf-8'); // Add a newline after the text
-        fs.appendFileSync(filePath, 'This is an additional line.', 'utf-8'); // Add another line of text
+        fs.appendFileSync(filePath, 'This is an additional line on 8 jun.', 'utf-8'); // Add another line of text
         
         console.log(`Text written to file: ${filePath}`);
     } catch (error) {

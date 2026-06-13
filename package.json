@@ -16,6 +16,7 @@
     "@types/pdf-parse": "^1.1.5"
   },
   "dependencies": {
+    "@axe-core/playwright": "^4.11.3",
     "express": "^5.2.1",
     "mysql2": "^3.22.3",
     "pdf-parse": "^1.1.1",

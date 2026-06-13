@@ -1,0 +1,5 @@
+Broken links found on https://the-internet.herokuapp.com/status_codes:
+
+https://the-internet.herokuapp.com/status_codes/301 — Status: 301
+https://the-internet.herokuapp.com/status_codes/404 — Status: 404
+https://the-internet.herokuapp.com/status_codes/500 — Status: 500

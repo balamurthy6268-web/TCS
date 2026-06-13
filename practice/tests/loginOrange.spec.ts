@@ -20,6 +20,8 @@ try {
 
 } catch (error) {
   console.error('Login failed or Dashboard not found');
+  //take screenshot on failure
+  await page.screenshot({ path: 'login-failure.png' });
 }
 
 });

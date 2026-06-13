@@ -30,5 +30,7 @@ test('parse PDF file', async () => {
  
   console.log(data.text); 
   parsePdfFile('./pdf_sample.pdf');
+
+  expect (data.text).toContain('sample'); // Replace with actual expected text
   
 });

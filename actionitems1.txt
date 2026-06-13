@@ -1,0 +1,8 @@
+getters, setters -> Real Time Examples with Orange / AdvantageOnline
+ 
+Fixtures (browser, context, page) -> Customer Fixtures
+ 
+Headed vs Headless Mode of Test Execution -> Usage of configuration with Edge Browser + Not Clearing session + not clearing Profiles.
+
+Design Patterns - Singleton, Page Object Model & Factory Pattern.
+ 
