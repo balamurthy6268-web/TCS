@@ -130,7 +130,7 @@ test.setTimeout(120000); // 2 minutes
         const rows =
             page.locator("xpath=//table/tbody/tr");
         const cols =
-            page.locator("xpath=//table/tbody/tr/td[4]");
+            page.locator("xpath=//table/tbody/tr/td[5]");
         
             await cols.allTextContents();
         console.log (cols);
