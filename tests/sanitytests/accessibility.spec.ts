@@ -18,3 +18,4 @@ test.describe('Accessibility Tests', () => {
     // You can add more specific assertions based on axe results
   });
 });
+//Check if a screenshot will be available on accessibility check highlighting elements that dont comply.

@@ -1,6 +1,6 @@
-import { Page,Locator } from '@playwright/test';
+import { Page,Locator,expect } from '@playwright/test';
 
-export class LoginPage {
+export class orangeLoginPage {
 
     username: Locator;
     password: Locator;
@@ -16,12 +16,18 @@ export class LoginPage {
 
   // Method to perform login action     
 
-    async login(
+    async dologin(
         username: string,
         password: string
-    ) {
+    ): Promise<boolean> {
         await this.username.fill(username);
         await this.password.fill(password);
         await this.loginButton.click();
+        try {
+            await expect(this.page).toHaveURL(/dashboard/);
+            return true;
+        } catch (error) {
+            return false;
+        }
     }
 }

@@ -23,4 +23,14 @@ export class DashboardPage {
             name: 'Admin'
         });
     }
+
+    //getter method to check if the dashboard header is visible
+    async isDashboardHeaderVisible() : Promise<boolean> {
+     await this.dashboardHeader.waitFor({
+        state: 'visible'
+    });
+
+    return await this.dashboardHeader.isVisible();
+    }
+    
 }

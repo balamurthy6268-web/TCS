@@ -1,7 +1,7 @@
 // login.spec.ts
 
 import { test,expect } from '@playwright/test';
-import { LoginPage } from '../pages/loginpage';
+import { LoginPage } from '../Modules/loginpage';
 import { DataHelper } from '../utils/DataHelper';
 
 test('Login Test', async ({ page }) => {

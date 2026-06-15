@@ -2,7 +2,7 @@
 // login.spec.ts
 
 import { test, expect, chromium, Browser, BrowserContext, Page } from '@playwright/test';
-import { LoginPage } from '../pages/loginpage';
+import { LoginPage } from '../Modules/loginpage';
 import { DataHelper } from '../utils/DataHelper';
 
 interface User {

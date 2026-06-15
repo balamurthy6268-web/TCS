@@ -9,7 +9,6 @@ test.describe('UI Controls Automation Examples', () => {
         // Standard dropdown
         await page.selectOption('#oldSelectMenu', 'Purple');
         
-            await expect.soft(page).toHaveTitle('Wrong Title');
             
          await test.step('Verify dropdown selection to have 4 as value', async () => {
             console.log("is 4 there ");
@@ -96,12 +95,24 @@ test.describe('UI Controls Automation Examples', () => {
 
         await expect(page.locator('#datePickerMonthYearInput'))
             .toHaveValue('06/15/2026');
+
+        //check if datePickerMonthYearInput locator has the pattern
+        //^[A-Za-z]+ \d{1,2}, \d{4} \d{1,2}:\d{2} (AM|PM)
+            
+       await expect(page.locator('#dateAndTimePickerInput'))
+    .toHaveValue(/^[A-Za-z]+ \d{1,2}, \d{4} \d{1,2}:\d{2} (AM|PM)$/);
     });
+
+test.setTimeout(120000); // 2 minutes
 
     test('Shadow Root Elements', async ({ page }) => {
 
-        await page.goto('https://books-pwakit.appspot.com/');
-
+        //increase wait time to 4000 ms for this page
+        
+       await page.goto('https://books-pwakit.appspot.com/', {
+    waitUntil: 'domcontentloaded',
+    timeout: 60000
+});
         const searchBox =
             page.locator('book-app')
                 .locator('#input');
@@ -118,6 +129,11 @@ test.describe('UI Controls Automation Examples', () => {
 
         const rows =
             page.locator("xpath=//table/tbody/tr");
+        const cols =
+            page.locator("xpath=//table/tbody/tr/td[4]");
+        
+            await cols.allTextContents();
+        console.log (cols);
 
         const count = await rows.count();
 

@@ -1,6 +1,6 @@
 import { test, expect, chromium, Browser, BrowserContext, Page } from '@playwright/test';
 import { DataHelper } from '../utils/DataHelper';
-import { LoginPage } from '../pages/loginpage';
+import { LoginPage } from '../Modules/loginpage';
 
 
 //const testData = readExcel('data/testdata.xlsx', 'Sheet1');
