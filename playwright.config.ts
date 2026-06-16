@@ -3,11 +3,14 @@
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 
-dotenv.config();
-/*dotenv.config({
+
+//dotenv.config();
+
+dotenv.config({
     path: `.env.${process.env.TEST_ENV || 'qa'}`
 });
-*/
+
+
 
 
 /**
@@ -42,7 +45,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     video: 'retain-on-failure',
-        baseURL: process.env.BASE_URL,
+    baseURL: process.env.BASE_URL,
 
 
 
@@ -52,8 +55,11 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-      retries :1
+      use: { ...devices['Desktop Chrome'] ,
+        baseURL: process.env.BASE_URL
+      },
+      retries :1,
+      
     },
 
     {
@@ -65,6 +71,8 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+
+     
 
     /* Test against mobile viewports. */
     // {
