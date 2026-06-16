@@ -1,6 +1,14 @@
 /// <reference types="node" />
 
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+
+dotenv.config();
+/*dotenv.config({
+    path: `.env.${process.env.TEST_ENV || 'qa'}`
+});
+*/
+
 
 /**
  * Read environment variables from file.
@@ -34,7 +42,11 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     video: 'retain-on-failure',
-  },
+        baseURL: process.env.BASE_URL,
+
+
+
+      },
 
   /* Configure projects for major browsers */
   projects: [

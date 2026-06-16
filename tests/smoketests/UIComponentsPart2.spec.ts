@@ -109,18 +109,9 @@ test.setTimeout(120000); // 2 minutes
 
         //increase wait time to 4000 ms for this page
         
-       await page.goto('https://books-pwakit.appspot.com/', {
-    waitUntil: 'domcontentloaded',
-    timeout: 60000
-});
-        const searchBox =
-            page.locator('book-app')
-                .locator('#input');
-
-        await searchBox.fill('Playwright');
-
-        await expect(searchBox)
-            .toHaveValue('Playwright');
+       await page.goto('https://material-web.dev/components/button/');
+       
+        await page.getByRole('button', { name: 'button' }).click();
     });
 
     test('Web Table', async ({ page }) => {
@@ -129,11 +120,19 @@ test.setTimeout(120000); // 2 minutes
 
         const rows =
             page.locator("xpath=//table/tbody/tr");
-        const cols =
-            page.locator("xpath=//table/tbody/tr/td[5]");
-        
-            await cols.allTextContents();
-        console.log (cols);
+
+        const salaries = await page
+        .locator('#root > div > div > div > div.col-12.mt-4.col-md-6.col-xl-7 > div.container-fluid > div.web-tables-wrapper > table > tbody > tr > td:nth-child(5)')
+        .allTextContents();
+
+        console.log(salaries);
+
+        const isSorted = salaries.map(Number).every(
+    (value, index, array) =>
+        index === 0 || array[index - 1] <= value
+    );
+
+        console.log("Is table sorted by salary:",isSorted);
 
         const count = await rows.count();
 
