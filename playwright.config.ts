@@ -11,8 +11,6 @@ dotenv.config({
 });
 
 
-
-
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -25,6 +23,9 @@ dotenv.config({
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  //timeout : 6000,
+  globalSetup: './global-setup.ts',
+
   testDir: '.',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -46,9 +47,6 @@ export default defineConfig({
     trace: 'on-first-retry',
     video: 'retain-on-failure',
     baseURL: process.env.BASE_URL,
-
-
-
       },
 
   /* Configure projects for major browsers */
@@ -57,8 +55,8 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] ,
         baseURL: process.env.BASE_URL
-      },
-      retries :1,
+      }
+      //retries :1,
       
     },
 

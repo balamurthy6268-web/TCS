@@ -4,12 +4,12 @@ import { test,expect } from '@playwright/test';
 import { LoginPage } from '../Modules/loginpage';
 import { DataHelper } from '../utils/DataHelper';
 
-test('Login Test', async ({ page }) => {
+test('Module Login Test', async ({ page }) => {
 
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 
     const user = DataHelper.createData({
-        username: 'wronguser',
+        username: 'Wronguser',
         password: 'wrongpassword'
     });
 

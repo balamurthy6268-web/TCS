@@ -1,2 +1,3 @@
-2026/06/10-11:38:30.615 36e8 Creating DB E:\BLaptop\TCS\edge-profile\Default\Local Storage\leveldb since it was missing.
-2026/06/10-11:38:32.555 36e8 Reusing MANIFEST E:\BLaptop\TCS\edge-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/17-08:56:46.433 4554 Reusing MANIFEST E:\BLaptop\TCS\edge-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/17-08:56:46.486 4554 Recovering log #3
+2026/06/17-08:56:46.500 4554 Reusing old log E:\BLaptop\TCS\edge-profile\Default\Local Storage\leveldb/000003.log 

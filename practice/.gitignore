@@ -6,3 +6,8 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+/process/
+.env
+.env.qa
+.env.dev
+.env.prod
