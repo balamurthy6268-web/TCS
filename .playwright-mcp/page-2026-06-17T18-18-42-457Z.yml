@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6]
+      - listitem [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10]
+      - listitem [ref=e12] [cursor=pointer]:
+        - link [ref=e13]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e14]
+  - banner [ref=e16]:
+    - navigation:
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link [ref=e19] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e20]
+            - img [ref=e21]
+        - listitem [ref=e23]:
+          - link "ShoppingCart" [ref=e24] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e25]
+          - list:
+            - listitem
+        - listitem [ref=e27]:
+          - link "UserMenu" [ref=e28] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic "USER" [ref=e29]:
+              - img [ref=e30]
+        - listitem [ref=e32]
+      - link "dvantage DEMO" [ref=e35] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e36]
+        - generic [ref=e38]: dvantage
+        - generic [ref=e39]: DEMO
+  - article [ref=e282]:
+    - generic [ref=e283]:
+      - heading "ENJOY PREMIUM SOUND" [level=1] [ref=e284]
+      - heading "Colorful style meets serious sound" [level=2] [ref=e285]
+      - heading "HP S9500 Bluetooth Wireless Speaker | Starting at $200" [level=3] [ref=e286]
+      - link "BUY NOW" [ref=e287] [cursor=pointer]:
+        - /url: "#/product/19"
+        - button "BUY NOW" [ref=e288]
+    - navigation [ref=e290]:
+      - link "HOME/" [ref=e291] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e292]: SPEAKERS
+    - heading "SPEAKERS" [level=3] [ref=e293]
+    - generic [ref=e294]:
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - paragraph [ref=e298]: 7 ITEMS
+          - generic [ref=e299]:
+            - generic [ref=e300]: "FILTER BY:"
+            - list [ref=e301]:
+              - listitem [ref=e302]:
+                - link "PRICE" [ref=e303] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e304]:
+                - link "COMPATIBILITY" [ref=e305] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e306]:
+                - link "MANUFACTURER" [ref=e307] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e308]:
+                - link "WEIGHT" [ref=e309] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e310]:
+                - link "WIRELESS TECHNOLOGY" [ref=e311] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e312]:
+                - link "COLOR" [ref=e313] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - list [ref=e315]:
+          - listitem [ref=e316] [cursor=pointer]:
+            - generic [ref=e317]:
+              - text: SHOP NOW
+              - img [ref=e318]
+            - paragraph [ref=e320]:
+              - generic [ref=e321]: Bose Soundlink Bluetooth Speaker III
+            - paragraph [ref=e322]:
+              - generic [ref=e323]: $269.99
+          - listitem [ref=e324] [cursor=pointer]:
+            - generic [ref=e325]:
+              - text: SHOP NOW
+              - img [ref=e326]
+            - paragraph [ref=e328]:
+              - generic [ref=e329]: Bose SoundLink Wireless Speaker
+            - paragraph [ref=e330]:
+              - generic [ref=e331]: $129.00
+          - listitem [ref=e332] [cursor=pointer]:
+            - generic [ref=e333]:
+              - text: SHOP NOW
+              - img [ref=e334]
+            - paragraph [ref=e336]:
+              - generic [ref=e337]: HP Roar Mini Wireless Speaker
+            - paragraph [ref=e338]:
+              - generic [ref=e339]: $44.99
+          - listitem [ref=e340] [cursor=pointer]:
+            - generic [ref=e341]:
+              - text: SHOP NOW
+              - img [ref=e342]
+            - paragraph [ref=e344]:
+              - generic [ref=e345]: HP Roar Plus Wireless Speaker
+            - paragraph [ref=e346]:
+              - generic [ref=e347]: $169.99
+          - listitem [ref=e348] [cursor=pointer]:
+            - generic [ref=e349]:
+              - text: SHOP NOW
+              - img [ref=e350]
+            - paragraph [ref=e352]:
+              - generic [ref=e353]: HP Roar Wireless Speaker
+            - paragraph [ref=e354]:
+              - generic [ref=e355]: $84.99
+          - listitem [ref=e356] [cursor=pointer]:
+            - generic [ref=e357]:
+              - text: SHOP NOW
+              - img [ref=e358]
+            - paragraph [ref=e360]:
+              - generic [ref=e361]: HP S9500 Bluetooth Wireless Speaker
+            - paragraph [ref=e362]:
+              - generic [ref=e363]: $200.00
+          - listitem [ref=e364] [cursor=pointer]:
+            - generic [ref=e365]:
+              - text: SHOP NOW
+              - img [ref=e366]
+            - paragraph [ref=e368]:
+              - generic [ref=e369]: Logitech X100 Speaker System - Wireless Speaker(s)
+            - paragraph [ref=e370]:
+              - generic [ref=e371]: $49.99
+      - generic [ref=e373]:
+        - heading "FOLLOW US" [level=3] [ref=e374]
+        - generic [ref=e375]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e376] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e377] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e378] [cursor=pointer]
+        - generic [ref=e379]: © Advantage Inc, 2024. Release 3.3

@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import * as XLSX from 'xlsx';
+import { parse } from 'csv-parse/sync';
 
 export class DataHelper {
 
@@ -48,4 +49,18 @@ export class DataHelper {
             worksheet
         );
     }
+
+    //npm install csv-parse
+
+  static readCsv(filePath: string): any[] {
+
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+
+        return parse(fileContent, {
+            columns: true,
+            skip_empty_lines: true
+        });
+    }
+
+
 }

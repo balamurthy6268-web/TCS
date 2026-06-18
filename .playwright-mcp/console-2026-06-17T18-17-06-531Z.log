@@ -1,0 +1,139 @@
+[    3015ms] [LOG] Extracting file: services.properties @ https://advantageonlineshopping.com/main.min.js:5079
+[    3269ms] [LOG] File extracted:  @ https://advantageonlineshopping.com/main.min.js:12086
+[    3270ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    3270ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:12041
+[    3271ms] [LOG]     @ https://advantageonlineshopping.com/main.min.js:12041
+[    3273ms] [LOG] ==========================================================================  @ https://advantageonlineshopping.com/main.min.js:12049
+[    3273ms] [LOG] ==========================================================================   @ https://advantageonlineshopping.com/main.min.js:12049
+[    3273ms] [LOG] Extracted file:  @ https://advantageonlineshopping.com/main.min.js:12005
+[    3274ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    3274ms] [LOG] Recieve:  @ https://advantageonlineshopping.com/main.min.js:12007
+[    3275ms] [LOG]  @ https://advantageonlineshopping.com/main.min.js:12008
+[    3275ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    3276ms] [LOG] Catalog path: https://advantageonlineshopping.com/catalog/api/v1/ @ https://advantageonlineshopping.com/main.min.js:12011
+[    3278ms] [LOG] Order path: https://advantageonlineshopping.com/order/api/v1/ @ https://advantageonlineshopping.com/main.min.js:12011
+[    3279ms] [LOG] Account WSDL (Web Services Description Language) path: https://advantageonlineshopping.com/accountservice/ws/ @ https://advantageonlineshopping.com/main.min.js:12011
+[    3280ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    3281ms] [LOG] ==========================================================================  @ https://advantageonlineshopping.com/main.min.js:12049
+[    3282ms] [LOG] ==========================================================================   @ https://advantageonlineshopping.com/main.min.js:12049
+[    3282ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    3283ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:12041
+[    3283ms] [LOG]     @ https://advantageonlineshopping.com/main.min.js:12041
+[    3567ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    3567ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[    3568ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL @ https://advantageonlineshopping.com/main.min.js:12028
+[    3679ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://advantageonlineshopping.com/#/:0
+[    4144ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[    4145ms] [LOG] {data: Object, status: 200, headers: , config: Object, statusText: } @ https://advantageonlineshopping.com/main.min.js:12033
+[    4146ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    4148ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    4149ms] [LOG] ========================   Reading wsdl  ================================= @ https://advantageonlineshopping.com/main.min.js:12020
+[    4149ms] [LOG] url: https://advantageonlineshopping.com/accountservice/ws/ @ https://advantageonlineshopping.com/main.min.js:12021
+[    4150ms] [LOG] method: GetAccountConfigurationRequest @ https://advantageonlineshopping.com/main.min.js:12022
+[    4152ms] [LOG] [jquery.soap - config:, Object] @ https://advantageonlineshopping.com/main.min.js:15546
+[    4164ms] [LOG] [jquery.soap - beforeSend:, <?xml version="1.0" encoding="UTF-8"?><soap:Envelo…ConfigurationRequest></soap:Body></soap:Envelope>] @ https://advantageonlineshopping.com/main.min.js:15546
+[    4792ms] [LOG] [jquery.soap - receive:, <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.…tionResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>] @ https://advantageonlineshopping.com/main.min.js:15546
+[    4817ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    4818ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[    4819ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/categories @ https://advantageonlineshopping.com/main.min.js:12028
+[    8861ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[    8862ms] [LOG] [Object, Object, Object, Object, Object] @ https://advantageonlineshopping.com/main.min.js:12033
+[    8862ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    9472ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[    9473ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[    9473ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true @ https://advantageonlineshopping.com/main.min.js:12028
+[   13442ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   13443ms] [LOG] [Object] @ https://advantageonlineshopping.com/main.min.js:12033
+[   13443ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   14052ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   14052ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[   14052ms] [LOG] Path: app/tempFiles/popularProducts.json @ https://advantageonlineshopping.com/main.min.js:12028
+[   14406ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   14407ms] [LOG] [Object, Object, Object] @ https://advantageonlineshopping.com/main.min.js:12033
+[   14408ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   14408ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11374
+[   14409ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11375
+[   14410ms] [LOG] popularProducts return from server @ https://advantageonlineshopping.com/main.min.js:11376
+[   14411ms] [LOG] ****************************** @ https://advantageonlineshopping.com/main.min.js:11377
+[   14412ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11378
+[   14412ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11379
+[   35144ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   35145ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[   35146ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/categories/4/products @ https://advantageonlineshopping.com/main.min.js:12028
+[   39447ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11374
+[   39447ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11375
+[   39448ms] [LOG] category return from server @ https://advantageonlineshopping.com/main.min.js:11376
+[   39448ms] [LOG] ****************************** @ https://advantageonlineshopping.com/main.min.js:11377
+[   39448ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11378
+[   39448ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11379
+[   39448ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   39449ms] [LOG] {categoryId: 4, categoryName: SPEAKERS, categoryImageId: speakers, promotedProduct: Object, attributes: Array(5)} @ https://advantageonlineshopping.com/main.min.js:12033
+[   39449ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   39450ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   39450ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[   39450ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/categories/attributes @ https://advantageonlineshopping.com/main.min.js:12028
+[   43530ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   43531ms] [LOG] {data: Object, status: 200, headers: , config: Object, statusText: } @ https://advantageonlineshopping.com/main.min.js:12033
+[   43536ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   52362ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   52363ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[   52363ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/categories/all_data @ https://advantageonlineshopping.com/main.min.js:12028
+[   52364ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   52365ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[   52366ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/products/19 @ https://advantageonlineshopping.com/main.min.js:12028
+[   56663ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   56664ms] [LOG] {data: Object, status: 200, headers: , config: Object, statusText: } @ https://advantageonlineshopping.com/main.min.js:12033
+[   56664ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   56666ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   56666ms] [LOG] ===========================   Calling  =================================== @ https://advantageonlineshopping.com/main.min.js:12027
+[   56666ms] [LOG] Path: https://advantageonlineshopping.com/catalog/api/v1/categories/4/products @ https://advantageonlineshopping.com/main.min.js:12028
+[   58978ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   58979ms] [LOG] [Object, Object, Object, Object, Object] @ https://advantageonlineshopping.com/main.min.js:12033
+[   58979ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   61045ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11374
+[   61046ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11375
+[   61046ms] [LOG] category return from server @ https://advantageonlineshopping.com/main.min.js:11376
+[   61046ms] [LOG] ****************************** @ https://advantageonlineshopping.com/main.min.js:11377
+[   61046ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11378
+[   61047ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11379
+[   61049ms] [LOG] ============================  Received  ================================== @ https://advantageonlineshopping.com/main.min.js:12032
+[   61050ms] [LOG] {categoryId: 4, categoryName: SPEAKERS, categoryImageId: speakers, promotedProduct: Object, attributes: Array(5)} @ https://advantageonlineshopping.com/main.min.js:12033
+[   61051ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:12041
+[   61559ms] [ERROR] TypeError: Cannot read properties of null (reading 'insertBefore')
+    at after (https://advantageonlineshopping.com/main.min.js:184:432)
+    at S.<computed> [as after] (https://advantageonlineshopping.com/main.min.js:186:332)
+    at b (https://advantageonlineshopping.com/main.min.js:191:137)
+    at Object.enter (https://advantageonlineshopping.com/main.min.js:191:307)
+    at https://advantageonlineshopping.com/main.min.js:260:27
+    at https://advantageonlineshopping.com/main.min.js:53:386
+    at https://advantageonlineshopping.com/main.min.js:55:231
+    at k (https://advantageonlineshopping.com/main.min.js:60:106)
+    at https://advantageonlineshopping.com/main.min.js:259:456
+    at n.$digest (https://advantageonlineshopping.com/main.min.js:133:62) @ https://advantageonlineshopping.com/main.min.js:107
+[   64115ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11374
+[   64115ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11375
+[   64115ms] [LOG] category return from app @ https://advantageonlineshopping.com/main.min.js:11376
+[   64115ms] [LOG] ****************************** @ https://advantageonlineshopping.com/main.min.js:11377
+[   64116ms] [LOG]   @ https://advantageonlineshopping.com/main.min.js:11378
+[   64116ms] [LOG]    @ https://advantageonlineshopping.com/main.min.js:11379
+[  121280ms] [LOG] Found price elements: [filterCount roboto-light] @ :3
+[  129745ms] [LOG] Range sliders found: 0 @ :5
+[  129745ms] [LOG] Price inputs found: 0 @ :6
+[  129745ms] [LOG] Elements with prices: [Object, Object, Object, Object, Object] @ :7
+[  160075ms] [LOG] Price elements found: 1 @ :3
+[  160075ms] [LOG] Price element: H4 accordion roboto-regular arrowDown ng-scope @ :7
+[  160075ms] [LOG] Parent LI: <li>
+                    <!--data-ng-class="{ arrowUp : viewAll }"-->
+                    <h4 href="javascript:void(0)" class="accordion roboto-regular arrowDown ng-scope" id="accordionPrice" ng-click="toggleColapse('accordionPrice')" translate="PRICE" role="link">PRICE</h4>
+
+                    <!- @ :16
+[  160076ms] [LOG] Button found: false @ :19
+[  160076ms] [LOG] Link found: false @ :20
+[  185931ms] [LOG] Found element with PRICE: {tag: H4, class: accordion roboto-regular arrowDown ng-scope, text: PRICE} @ :7
+[  185932ms] [LOG] Parent found, HTML: <li>
+                    <!--data-ng-class="{ arrowUp : viewAll }"-->
+                    <h4 href="javascript:void(0)" class="accordion roboto-regular arrowDown ng-scope" id="accordionPrice" ng-click="toggleColapse('accordionPrice')" translate="PRICE" role="link">PRICE</h4>
+
+                    <!--<div class="option">-->
+                    <div class="option" style="text-align: center; display: none;" data-ng-style="viewAll ? {'display': 'block'} : {}">
+                        <div id="slider @ :23
