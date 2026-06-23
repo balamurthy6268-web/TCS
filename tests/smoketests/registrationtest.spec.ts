@@ -10,7 +10,7 @@ console.log(faker.internet.password());
 console.log(faker.date.month());
 console.log(faker.phone.number());
 
-//extract the last row, extract the number from the id column , 
+//extract the last row from users table, extract the userid, 
 // then add 1 to it and use it for insert into customers values(newid,fn,ln,ph,em)
 
 
