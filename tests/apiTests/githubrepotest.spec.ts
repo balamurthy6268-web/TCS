@@ -11,7 +11,7 @@ test('Validate GitHub repository exists', async ({ request }) => {
         `https://api.github.com/repos/balamurthy6268-web/TCS`,
         {
             headers: {
-                Authorization: `Bearer ancdasfsad`, // not exposing real bearer token for security.
+                Authorization: ``, // not exposing real data for security.
                 Accept: 'application/vnd.github+json'
             }
         }
