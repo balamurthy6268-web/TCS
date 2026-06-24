@@ -7,4 +7,7 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 /process/
+.env
+.env.qa
+.env.prod
 
