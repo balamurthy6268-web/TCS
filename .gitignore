@@ -10,4 +10,4 @@ node_modules/
 .env
 .env.qa
 .env.prod
-/tests/apitests/githubrepotests.spec.ts/
+/tests/apitests/githubrepotest.spec.ts/
