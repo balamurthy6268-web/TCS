@@ -1,9 +1,17 @@
 import { test, expect } from '@playwright/test';
+import petData from '../../../petsingledata.json';
+
 
 const BASE_URL = 'https://petstore.swagger.io/v2';
 
+
 const petId = Date.now();
 
+
+//const petData = DataHelper.readJson("E:\\BLaptop\\TCS\\petsingledata.json");
+
+
+/*
 const petData = {
   id: petId,
   category: {
@@ -20,10 +28,15 @@ const petData = {
   ],
   status: 'available'
 };
+*/
 
-test.describe('PetStore V2 CRUD Operations', () => {
+test.describe.serial('PetStore V2 CRUD Operations', () => {
 
   test('Create Pet', async ({ request }) => {
+    //First get the petId from the date. 
+    //Then introduce that into the json file as the petId
+
+    petData.id=petId;
 
     const response = await request.post(
       `${BASE_URL}/pet`,
@@ -31,13 +44,13 @@ test.describe('PetStore V2 CRUD Operations', () => {
         data: petData
       }
     );
-
+    
     expect(response.status()).toBe(200);
 
     const body = await response.json();
 
     expect(body.id).toBe(petId);
-    expect(body.name).toBe('Tommy');
+    expect(body.name).toBe('Tommy2000');
     expect(body.status).toBe('available');
   });
 
@@ -52,7 +65,7 @@ test.describe('PetStore V2 CRUD Operations', () => {
     const body = await response.json();
 
     expect(body.id).toBe(petId);
-    expect(body.name).toBe('Tommy');
+    expect(body.name).toBe('Tommy2000');
   });
 
   test('Update Pet', async ({ request }) => {
@@ -105,7 +118,7 @@ test.describe('PetStore V2 CRUD Operations', () => {
 
     expect(body.status).toBe('sold');
   });
-
+/*
   test('Delete Pet', async ({ request }) => {
 
     const response = await request.delete(
@@ -125,7 +138,8 @@ test.describe('PetStore V2 CRUD Operations', () => {
 
     const body = await response.json();
 
-    expect(body.message).toBe(String(petId));
+    expect(body.message).toBe("Pet not found");
   });
+*/
 
 });

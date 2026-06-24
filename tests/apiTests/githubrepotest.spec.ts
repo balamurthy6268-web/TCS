@@ -11,13 +11,13 @@ test('Validate GitHub repository exists', async ({ request }) => {
         `https://api.github.com/repos/balamurthy6268-web/TCS`,
         {
             headers: {
-                Authorization: `Bearer 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`,
+                Authorization: `Bearer ancdasfsad`, // not exposing real bearer token for security.
                 Accept: 'application/vnd.github+json'
             }
         }
     );
 
-    expect(response.status()).toBe(200);
+    expect(response.status()).toBe(200); //This will fail as the real bearer token is not given on purpose.
 
     const repo = await response.json();
 
