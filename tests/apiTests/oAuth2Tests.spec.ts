@@ -70,7 +70,7 @@ async function refreshAccessToken(
 
 
 // ── 1. Bearer Token — send existing token in Authorization header ─────────────
-test('OAuth2 — Bearer token sent in Authorization header', async ({ request }) => {
+test('OAuth2 — Bearer token sent in Authorization header @apibearertoken', async ({ request }) => {
   // Simulate a token you received from your OAuth2 server
   const accessToken = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.mock_token';
 

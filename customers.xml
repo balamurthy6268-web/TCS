@@ -1,0 +1,8 @@
+<customers>
+
+<customer id="c1" name="Ravi"/> 
+<customer id="c2" name="Harry"/>
+<customer id="c3" name="Jay"/> 
+
+<customer id="c4" name="Jay"/>
+</customers>
