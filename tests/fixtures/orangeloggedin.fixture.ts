@@ -1,33 +1,32 @@
-import { test as base,Page } from '@playwright/test';
+import { test as base, BrowserContext } from '@playwright/test';
 
-type MyFixtures = {
-    loggedInPage: Page;
+type WorkerFixtures = {
+    loggedincontext: BrowserContext;
 };
 
-export const test =
-    base.extend<MyFixtures>({
+export const test = base.extend<{}, WorkerFixtures>({
 
-        loggedInPage:
-        async ({ page }: { page: Page }, use: any) => {
+    loggedincontext: [ async ({ browser }, use) => {
 
-            await page.goto(
-                'https://opensource-demo.orangehrmlive.com/'
-            );
+        const context = await browser.newContext();
 
-            await page
-                .locator('input[name="username"]')
-                .fill('Admin');
+        const page = await context.newPage();
 
-            await page
-                .locator('input[name="password"]')
-                .fill('admin123');
+        //await page.goto('/web/index.php/auth/login');
+        await page.goto('/');
+        await page.getByPlaceholder('Username').fill('Admin');
+        await page.getByPlaceholder('Password').fill('admin123');
 
-            await page
-                .locator('button[type="submit"]')
-                .click();
+        await page.getByRole('button', { name: 'Login' }).click();
 
-            await use(page);
-        }
-    });
+        await page.waitForURL(/dashboard/);
+
+        await use(context);
+
+        await context.close();
+
+    }, {scope : 'worker'}]
+
+});
 
 export { expect } from '@playwright/test';

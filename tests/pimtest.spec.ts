@@ -5,13 +5,13 @@ import {
 
 test(
     'Navigate to PIM',
-    async ({ loggedInPage }) => {
+    async ({ loggedincontext }) => {
+        const loggedinpage = await loggedincontext.newPage();
 
-        await loggedInPage
-            .getByRole('link', { name: 'PIM' })
+        await loggedinpage.getByRole('link', { name: 'PIM' })
             .click();
 
-        await expect(loggedInPage)
+        await expect(loggedinpage)
             .toHaveURL(/pim/);
     }
 );

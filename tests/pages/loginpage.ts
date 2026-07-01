@@ -17,7 +17,6 @@ export class LoginPage {
             await expect(page).toHaveURL(/.*dashboard.*/);
 
             console.log(`Login successful for ${user.username} with password ${user.password}`);
-            // await page.getByRole('listitem').filter({ hasText: 'Madge van der Meij' }).locator('i').click();
             await page.getByRole('listitem').locator('i').click();
             await page.getByRole('menuitem', { name: 'Logout' }).click();
             return true;
