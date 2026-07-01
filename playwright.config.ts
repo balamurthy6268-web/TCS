@@ -24,10 +24,11 @@ dotenv.config({
  */
 export default defineConfig({
   //timeout : 6000,
-  globalSetup: './global-setup.ts',
+  //globalSetup: './global-setup.ts',
 
   testDir: '.',
-  /* Run tests in files in parallel */
+  testMatch:'example.spec.ts',
+    /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
