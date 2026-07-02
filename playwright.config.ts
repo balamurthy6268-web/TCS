@@ -70,7 +70,7 @@ export default defineConfig({
        use: { 
         //...devices['Desktop Chrome'],
         browserName: 'chromium',
-        headless:false, 
+        headless:true, 
        // storageState: 'storage/.auth/orangehrm-auth.json',
         baseURL: process.env.BASE_URL
       },
