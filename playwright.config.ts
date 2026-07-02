@@ -36,10 +36,11 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     screenshot: 'only-on-failure',
+    
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 
-    //headless: true,
+    headless: true,
     //Do not set storageState globally under use if only some tests require a logged-in session.
     //storageState: 'storage/orangehrm-auth.json',
     baseURL:process.env.BASE_URL,
