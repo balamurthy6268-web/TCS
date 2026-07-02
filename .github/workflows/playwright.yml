@@ -1,9 +1,14 @@
 name: Playwright Tests
 on:
-  push:
-    branches: [ 1july2026, master ]
-  pull_request:
-    branches: [ 1july2026, master ]
+  workflow_dispatch:
+    inputs:
+      browser:
+        required: false
+//on:
+  //push:
+   // branches: [ 1july2026, master ]
+  //pull_request:
+    //branches: [ 1july2026, master ]
 jobs:
   test:
     timeout-minutes: 60
