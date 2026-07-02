@@ -32,7 +32,7 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run Playwright Tests
-        run: npx playwright test --project=chromium --headless
+        run: npx playwright test --project=chromium
 
       - name: Upload Playwright HTML Report
         if: always()
