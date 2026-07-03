@@ -19,7 +19,7 @@ import path from 'path';
  */
 export default defineConfig({
   testDir: '.',
-  testMatch: ['tests/smokeTests/example.spec.ts'],
+  testMatch: ['tests/smokeTests/ispalindrome.spec.ts'],
   // globalSetup:path.resolve(__dirname,'global-setup'),
   // testmatch to be specified here if you are using global setup
 
